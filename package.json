@@ -14,8 +14,12 @@
   "author": "NriotHrreion",
   "type": "module",
   "main": "src/languages/abc.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["hljs", "highlightjs", "abc-notation", "music"]
+  "keywords": ["hljs", "highlightjs", "abc-notation", "music"],
+  "peerDependencies": {
+    "highlight.js": "^11.11.1"
+  }
 }
